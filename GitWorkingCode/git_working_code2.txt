@@ -1,0 +1,198 @@
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ touch digitalClock.py
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ code digitalClock.py
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ python digitalClock.py
+Traceback (most recent call last):
+  File "D:\Git_folder\Git_work_directory\digitalClock.py", line 5, in <module>
+    window.geometry("600*300")
+  File "C:\Python310\lib\tkinter\__init__.py", line 2073, in wm_geometry
+    return self.tk.call('wm', 'geometry', self._w, newGeometry)
+_tkinter.TclError: bad geometry specifier "600*300"
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ python3 digitalClock.py
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git add .
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git commit -m "added a new digital clock program"
+[master 470e642] added a new digital clock program
+ 2 files changed, 241 insertions(+)
+ create mode 100644 GitWorkingCode/git_working_code1.txt
+ create mode 100644 digitalClock.py
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git log
+commit 470e642c826117679770356b9a80129bbb16e2dc (HEAD -> master)
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:41:11 2022 +0545
+
+    added a new digital clock program
+
+commit b60e66fe831475031326989c33459fde19b63ef5
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:28:16 2022 +0545
+
+    added 2 new dummy files
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git log --oneline
+470e642 (HEAD -> master) added a new digital clock program
+b60e66f added 2 new dummy files
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ code digitalClock.py
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ python digitalClock.py
+Traceback (most recent call last):
+  File "D:\Git_folder\Git_work_directory\digitalClock.py", line 6, in <module>
+    window.geometry("600*300")
+  File "C:\Python310\lib\tkinter\__init__.py", line 2073, in wm_geometry
+    return self.tk.call('wm', 'geometry', self._w, newGeometry)
+_tkinter.TclError: bad geometry specifier "600*300"
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ python digitalClock.py
+Traceback (most recent call last):
+  File "D:\Git_folder\Git_work_directory\digitalClock.py", line 6, in <module>
+    window.geometry("600*300")
+  File "C:\Python310\lib\tkinter\__init__.py", line 2073, in wm_geometry
+    return self.tk.call('wm', 'geometry', self._w, newGeometry)
+_tkinter.TclError: bad geometry specifier "600*300"
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git add .
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git commit -m "added a welcome message now Devin Ji"
+[master 82d0253] added a welcome message now Devin Ji
+ 1 file changed, 4 insertions(+)
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git add .
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git commit -m "removed a welcome message now Devin Ji"
+[master 425aedd] removed a welcome message now Devin Ji
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git log
+commit 425aedde0a67d37415b8a38d79ce7063bade916a (HEAD -> master)
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:53:52 2022 +0545
+
+    removed a welcome message now Devin Ji
+
+commit 82d025314747c0aea2ea59591ae3f1d4e45fcd27
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:52:23 2022 +0545
+
+    added a welcome message now Devin Ji
+
+commit 470e642c826117679770356b9a80129bbb16e2dc
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:41:11 2022 +0545
+
+    added a new digital clock program
+
+commit b60e66fe831475031326989c33459fde19b63ef5
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:28:16 2022 +0545
+
+    added 2 new dummy files
+:
+commit 425aedde0a67d37415b8a38d79ce7063bade916a (HEAD -> master)
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:53:52 2022 +0545
+
+    removed a welcome message now Devin Ji
+
+commit 82d025314747c0aea2ea59591ae3f1d4e45fcd27
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:52:23 2022 +0545
+
+    added a welcome message now Devin Ji
+
+commit 470e642c826117679770356b9a80129bbb16e2dc
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:41:11 2022 +0545
+
+    added a new digital clock program
+
+commit b60e66fe831475031326989c33459fde19b63ef5
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:28:16 2022 +0545
+
+    added 2 new dummy files
+:
+commit 425aedde0a67d37415b8a38d79ce7063bade916a (HEAD -> master)
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:53:52 2022 +0545
+
+    removed a welcome message now Devin Ji
+
+commit 82d025314747c0aea2ea59591ae3f1d4e45fcd27
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:52:23 2022 +0545
+
+    added a welcome message now Devin Ji
+
+commit 470e642c826117679770356b9a80129bbb16e2dc
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:41:11 2022 +0545
+
+    added a new digital clock program
+
+commit b60e66fe831475031326989c33459fde19b63ef5
+Author: Samundra_pdl <samundra.pdl2000@gmail.com>
+Date:   Fri Apr 8 16:28:16 2022 +0545
+
+    added 2 new dummy files
+:
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+git branch
+* master
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git branch clock
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git branch
+  clock
+* master
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git log --oneline
+425aedd (HEAD -> master, clock) removed a welcome message now Devin Ji
+82d0253 added a welcome message now Devin Ji
+470e642 added a new digital clock program
+b60e66f added 2 new dummy files
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (master)
+$ git switch clock
+Switched to branch 'clock'
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (clock)
+$ git log --oneline
+425aedd (HEAD -> clock, master) removed a welcome message now Devin Ji
+82d0253 added a welcome message now Devin Ji
+470e642 added a new digital clock program
+b60e66f added 2 new dummy files
+
+DELL@Redmi-Note-8 MINGW64 /d/Git_folder/Git_work_directory (clock)
+$ 

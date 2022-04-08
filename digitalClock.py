@@ -6,6 +6,6 @@ window.title("It's a Digital Clock")
 window.geometry("600*300")
 window.configure(bg="steelblue")
 
-label= Label(window, text ="Welcome!", font=("Arial Black",78,"bold"), bg="steelblue",fg="transparent")
+label= Label(window, font=("Arial Black",78,"bold"), bg="steelblue",fg="transparent")
 label.pack(pady=100)
 window.mainloop()
